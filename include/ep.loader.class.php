@@ -62,7 +62,7 @@ class EP_Loader {
 
         $params['lang'] = EP_LANG;
         $params['username'] = EP_LOGIN;
-        $params['password'] = EP_PASSWORD;
+        $params['api_key'] = EP_API_KEY;
 
         $auth_path = $path . '?' . http_build_query($params);
 
