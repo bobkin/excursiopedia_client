@@ -1,27 +1,29 @@
 # What #
-Excursiopedia.com demo client.
-Client can download information via Excursiopedia XML-API and show some usage samples.  
+Excursiopedia.com demo client.  
+Client can download information via Excursiopedia XML-API and show some usage samples.    
 
 
 
 # Requirement #
-PHP 5.2+ 
-PDO Extension (SQLite or MySQL)
-MySQL or SQLite database 
+
+*   PHP 5.2+ 
+*   PDO Extension (SQLite or MySQL)
+*   MySQL or SQLite database 
 
 
 
 # Installation #
 
 Download all files or make “git clone”
+
 Edit include/ep.start.php
-	Add user name constant
-	Add api_key constant
-	Setup DB connection
-	Check that “db” directory writable (if use SQLite) 
+*   Add user name constant
+*   Add api_key constant
+*   Setup DB connection
+*   Check that “db” directory writable (if use SQLite) 
 
 Start upload script
-	php upload/script.php
+*   php upload/script.php
 
 View and run samples at /samples/ directory.
 
@@ -44,5 +46,5 @@ EP class extend easy ORM ReadBean (http://redbeanphp.com). It can help write eas
        <?php endforeach;?>
    </ul>
 <?php endif?>
+
 ```
-   
