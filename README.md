@@ -2,10 +2,14 @@
 Excursiopedia.com demo client.
 Client can download information via Excursiopedia XML-API and show some usage samples.  
 
+
+
 # Requirement #
 PHP 5.2+ 
 PDO Extension (SQLite or MySQL)
 MySQL or SQLite database 
+
+
 
 # Installation #
 
@@ -21,7 +25,9 @@ Start upload script
 
 View and run samples at /samples/ directory.
 
-#Work with EP data# 
+
+# Work with EP data #
+ 
 EP class extend easy ORM ReadBean (http://redbeanphp.com). It can help write easy output code like this:
 
 ```php
@@ -37,5 +43,6 @@ EP class extend easy ORM ReadBean (http://redbeanphp.com). It can help write eas
            <li><a href="activity.php?id=<?php echo $activity->id?>"><?php echo $activity->title?></a>
        <?php endforeach;?>
    </ul>
+<?php endif?>
 ```
    
