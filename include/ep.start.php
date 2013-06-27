@@ -1,7 +1,7 @@
 <?php 
 
-define('EP_LOGIN','');
-define('EP_API_KEY','');
+define('EP_LOGIN','user12092');
+define('EP_API_KEY','jeatramoud');
 define('EP_LANG','en');// ru en de it es fr zh
 
 define('EP_CLIENT_DIR', dirname(__FILE__).'/..');
